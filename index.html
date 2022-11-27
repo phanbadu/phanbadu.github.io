@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- Đầu -->
+	<meta charset="utf-8"/>
+	<meta name="description" content="My resume website"/>
+	<meta name="author" content="Du Phan"/>
+	<meta name="country" content="Viet Nam"/>
+	<link rel="stylesheet" href="css/10.css">	<!-- gắn link của css vào html để code css -->
+	<title>My Resume</title>
+</head>
+<body>
+	<h1 id="menu_text">My Resume</h1>
+	<nav>	<!-- Menu -->
+		<a href="#contact" class="menu_left">Contact</a>
+		<a href="#education" class="menu_left">Education</a> 	<!-- trong thân <nav> ta có thể tạo id để di chuyển tới -->
+		<a href="#score" class="menu_left">Score</a>		<!-- <a href="#tựđịnhnghĩa" sau khi định nghĩa sẽ dán nó vào phần cần được di chuyển id -->
+		<a href="#social" class="menu_right">Social media</a>
+
+	</nav>
+	<img src="a.jpg" alt="My photo" width="400" height="333" /> 
+	<hr>
+	<h2 id="contact">Contact information</h2> 	<!-- id ="tựđịnhnghĩa" ta sẽ được 1 đường dẫn-->
+	<p><em>I am working in the information technology field.</em></p>
+	<ul>
+		<li><strong>Fullname:</strong> Du Phan</li>
+		<li><strong>Country:</strong> Viet Nam</li>	
+	</ul>
+	<hr>
+	<h2 id="education">Education</h2>
+	<ol>
+		<li>Hanoi-Amsterdam Highschool</li>
+		<li>Swinburne University</li>
+		<li>Deakin University</li>
+	</ol>
+	<hr>
+	<h2 id="score">Scores</h2>
+	<table border="1">
+		<tr>
+			<th rowspan="2"/>
+			<th colspan="2">Math</th>
+			<th rowspan="2">Physics</th>
+			<th rowspan="2">IT</th>	
+		</tr>
+		<tr>
+			<th>Math1</th>
+			<th>Math2</th>
+		</tr>
+		<tr>
+			<th>2019</th>
+			<td>8</td>
+			<td>0</td>
+			<td>9</td>
+			<td>10</td>
+		</tr>
+		<tr>
+			<th>2020</th>
+			<td>10</td>
+			<td>0</td>
+			<td>2</td>
+			<td>9</td>
+		</tr>
+		<tr>
+			<th>2021</th>
+			<td>8</td>
+			<td>0</td>
+			<td>8</td>
+			<td>8</td>
+		</tr>
+	</table>
+	<hr>
+	<h2 id="social">Social Media</h2>
+	<p>Youtobe: <a href="https://www.youtube.com/">Youtobe</a></p>	<!--<a href="url">link text</a>-->
+	<p>Facebook: <a href="https://www.facebook.com/">Facebook</a></p> 	<!-- Chèn link vào web -->
+
+	<hr>
+	<footer>	<!-- <div> : chả có nghĩa gì cả nên ta dùng <footer>--> 
+		Phan Ba Du - <a href="mailto:duphan03@gmail.com">Email me</a>	<!-- Chèn link vào gmail -->
+	</footer>
+</body>
+</html>		<!-- Đóng code -->
